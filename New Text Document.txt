@@ -1,0 +1,33 @@
+console.log(2032 / 4);
+
+//example
+const year = 3566;
+console.log(year % 4);
+
+//example
+const arpa = 3945;
+const remainder = arpa % 4;
+console.log(remainder);
+//console.log(remainder == 0);
+console.log(remainder = 0);
+
+//example
+const nihan = 3996;
+let aria = nihan % 4;
+if (aria == 0) {
+    console.log('its a leap year')
+} else {
+    console.log('its not a leap year')
+}
+
+//example
+function isLeapYear(year) {
+    const remainder = year % 4;
+    if (remainder == 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
+const check2000 = isLeapYear(2000);
+console.log(check2000);
